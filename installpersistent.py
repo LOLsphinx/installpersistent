@@ -65,7 +65,10 @@ if not systemdir:
             print("Please check the txt file on your Desktop and read it. Thank you!")
         else:
             clear()
-            print("LetsTestThePersistent.txt does not exist on Desktop!")
+            print("Desktop does not exist!")
+            print("Let's try to create a LetsTestThePersistent.txt on the current Directory!")
+            command("echo 'Let\'s try to test the persistent let\'s see if this text will still be here once you restart your PC.' > LetsTestThePersistent.txt")
+            print("Please kindly read what's in the Text file 'LetsTestThePersistent.txt'. ")
             sleep(3.1)
             exit()
     except Exception as e:
