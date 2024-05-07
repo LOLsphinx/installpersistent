@@ -34,7 +34,7 @@ for _ in range(3):
     time.sleep(0.5)
 
 print("\nPlease select your USB Device that the Linux live OS has installed.")
-print("Example: /dev/sdb")
+print("Example: sdb")
 device = input("Type the Device Path: ")
 time.sleep(2.4)
 clear()
