@@ -25,7 +25,7 @@ else:
 
 clear()
 
-command("sudo fdisk -l | grep 'devices'")
+command("sudo fdisk -l | grep '/dev/sdb'")
 
 print()
 print('', end="", flush=True)
